@@ -1,87 +1,41 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html>
 <head>
-	<title>Mano Svetaine</title>
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Piazzolla:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Mano Google</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-
-<h1 id="title">My Website</h1>
-
-<p class="para-text"><span class="italics">Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.</p>
-
-<h2 class="subtitle">About Me</h2>
-
-<img src="../pictures/dragon.jpeg">
-
-<p class="para-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. 
-
-Cillum dolore eu fugiat nulla , pariatur:
-
-	<ul>
-		<li class="list-item">Excepteur sint occaecat</li>
-		<li class="list-item">cupidatat non proident</li>
-		<li class="list-item">sunt in culpa.</li>
-	</ul>
-</p>
-<div id="service-image"></div>
-
-<div class="container">
-	<div class="container-item" style="order: 7">A</div>
-	<div class="container-item" style="order: 6">B</div>
-	<div class="container-item" style="order: 5">C</div>
-	<div class="container-item" style="order: 1">D</div>
-	<div class="container-item" style="order: 3">E</div>
-	<div class="container-item" style="order: 4">F</div>
-	<div class="container-item" style="order: 2">G</div>
-</div>
-<h2 class="subtitle">Services</h2>
-<table border="1" class="site-table">
-	<thead>
-		<tr>
-			<td>Lorem</td>
-			<td>Ipsum</td>
-			<td>Dolor</td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Sit</td>
-			<td>Amet</td>
-			<td>Consectetur</td>
-		</tr>
-		<tr>
-			<td>Adipisicing</td>
-			<td>Elit</td>
-			<td>Sed</td>
-		</tr>
-
-	</tbody>
-</table>
-
-
-<img src="../pictures/googlelogo_color_272x92dp.png" id="about-us-image">
-<a href="http://www.google.com" class="link">Google</a>
-<h2 class="subtitle">Contact Us</h2>
-
-<form>
-	<input class ="form-input" type="text" placeholder="Full Name" >
-	<input class ="form-input" type="email" placeholder="Email">
-	<textarea></textarea>
-	<button>Submit</button>	
-
-</form>
-
-
+	<div class="navbar-container">
+		<a class="navbar" href="#">Gmail</a>
+		<a class="navbar" href="#">Images</a>
+		<img class="navbarappicon" src="pictures/googleapplogo.png" alt="Google app icon">
+		<img class="navbarappicon profileicon" src="pictures/profile.png" alt="Google profile icon">
+	</div>
+	<div class="flexbox-container">
+		<div class="flexbox-search">
+			<div class="flexbox-item flexbox-item1"><img src="pictures/googlelogo_color_272x92dp.png" alt="Google image"></div>
+			<input class="flexbox-item flexbox-item2" type="text" id="name" name="name" size="60">
+		</div>
+		<div class="flexbox-searchbuttons">
+			<button class="searchbutton" type="button">Google Search</button>
+			<button class="searchbutton" type="button">I'm Feeling Lucky</button>
+		</div>
+	</div>
+	<div class="footer-container">
+		<ul class="footbar-left" id="festa">
+			<a class="footbar-leftline" href="#">Advertising</a>
+			<a class="footbar-leftline" href="#">Business</a>
+			<a class="footbar-leftline" href="#">About</a>
+			<a class="footbar-leftline" href="#">How Search works</a>
+		</ul>
+		<ul class="footbar-right">
+			<a class="footbar-leftline" href="#">Piracy</a>
+			<a class="footbar-leftline" href="#">Terms</a>
+			<a class="footbar-leftline" href="#">Settings</a>
+		</ul>
+	</div>
 </body>
-</html> 
+
+
+</html>
